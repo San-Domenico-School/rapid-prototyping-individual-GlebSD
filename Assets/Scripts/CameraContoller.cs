@@ -12,7 +12,7 @@ using UnityEngine;
 public class CameraContoller : MonoBehaviour
 {
 
-
+    [Tooltip("DRAG VEHICLE ONTO VEHICLE TRANSOFRM")]
     [SerializeField] private Transform vehicleTransform; // Holds the Transform component of the player
     private Vector3 offset; 
 
